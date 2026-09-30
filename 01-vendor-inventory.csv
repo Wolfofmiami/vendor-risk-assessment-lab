@@ -1,0 +1,8 @@
+ID,Vendor,What They Do,Data They Touch,Data Sensitivity,Business Criticality,Tier,Owner,Last Review
+V01,Supabase,Customer database,Customer names; emails; phones; home addresses; job photos,High,Critical,Tier 1,CTO,Never
+V02,Stripe,Payment processing,Customer names; emails; payment card data,High,Critical,Tier 1,CEO,Never
+V03,Google Workspace,Email and documents,Customer emails; support tickets; internal docs,High,High,Tier 1,Ops Manager,Never
+V04,Netlify,Web hosting,App code (no customer data stored),Low,Critical,Tier 2,CTO,Never
+V05,GitHub,Code storage,Source code,Medium,High,Tier 2,CTO,Never
+V06,Slack,Internal chat,Occasional customer details in messages,Medium,Medium,Tier 2,Ops Manager,Never
+V07,Angi,Lead generation,Homeowner names; phones; addresses from leads,Medium,Medium,Tier 2,CEO,Never
